@@ -1,0 +1,10 @@
+<div>
+    <h2>Product Details</h2>
+    <p><strong>Product Name:</strong> {{ productName | uppercase }}</p>
+    <p><strong>Product Code:</strong> {{ productCode | lowercase }}</p>
+    <p><strong>Price:</strong> {{ productPrice | currency:'USD':'symbol' }}</p>
+    <p><strong>Price:</strong> {{ productPriceEuro | currency:'EUR':'code' }}</p>
+    <p><strong>Manufacture Date:</strong> {{ manufactureDate | date:'fullDate' }}</p>
+    
+  </div>
+  
