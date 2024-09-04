@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.viewButton {
+    border: none; 
+    background-color: #2d545e;
+    color: white; 
+    padding: 12px 20px; 
+    cursor: pointer; 
+    border-radius: 12px; 
+    font-size: 1rem; 
+    font-weight: bold; 
+    text-align: center;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.3s, box-shadow 0.3s; 
+}
+
+.viewButton:hover {
+    background-color: #1a3d3d; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+}
+

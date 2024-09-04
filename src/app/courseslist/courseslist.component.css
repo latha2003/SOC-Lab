@@ -1,0 +1,16 @@
+.courseList{
+    border: 1px solid #ddd;
+    width: 80%;
+    padding: 0.5rem;
+    background-color:  #e1b382;
+    border-radius: 12px;
+    margin: 1rem auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.courseList:hover {
+    cursor: pointer;
+    transform: translate(-3px); /* Slight lift on hover for interaction feedback */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Darker shadow on hover for emphasis */
+}
+
