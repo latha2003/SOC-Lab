@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+
 
 @Component({
   selector: 'app-courseslist',
@@ -9,5 +10,6 @@ import { Component } from '@angular/core';
   styleUrl: './courseslist.component.css'
 })
 export class CourseslistComponent {
-
+  @Input()
+  data!: string[];
 }

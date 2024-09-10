@@ -4,7 +4,7 @@
     <div class="main">
         <app-product-details></app-product-details>
         <button (click)="toggleCoursesList()" class="viewButton">View Courses list</button>
-        <app-courseslist *ngIf="showCourseslist"></app-courseslist>
+        <app-courseslist  [data] = "parentData" *ngIf="showCourseslist"></app-courseslist>
     </div>
 </div>
 

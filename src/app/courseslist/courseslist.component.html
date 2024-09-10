@@ -1,10 +1,8 @@
 <div class="courseList">
     <h2 class="courseHead">Courses List</h2>
     <ul class="courses">
-        <li>C</li>
-        <li>C++</li>
-        <li>Java</li>
-        <li>Python</li>
-        <li>Angular</li>
+        
+            <li *ngFor="let item of data">{{item}}</li>
+        
     </ul>
 </div>
