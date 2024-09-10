@@ -13,7 +13,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'product-app';
-  parentData: string[] =["C", "C++", "Java", "Python", "Angular"];
+  parentData: string[] =["C", "C++", "Java", "Python", "Angular", "JavaScript"];
   showCourseslist = false;
   toggleCoursesList(){
     this.showCourseslist = !this.showCourseslist;
